@@ -1,6 +1,6 @@
 [package]
 name    = "nalgebra-lapack"
-version = "0.16.0"
+version = "0.16.1"
 authors = [ "Sébastien Crozet <developer@crozet.re>", "Andrew Straw <strawman@astraw.com>" ]
 
 description   = "Matrix decompositions using nalgebra matrices and Lapack bindings."
@@ -36,7 +36,7 @@ simba         = "0.4"
 serde         = { version = "1.0", optional = true }
 serde_derive  = { version = "1.0", optional = true }
 lapack        = { version = "0.17", default-features = false }
-lapack-src    = { version = "0.6", default-features = false }
+lapack-src    = { version = "0.8", default-features = false }
 # clippy = "*"
 
 [dev-dependencies]
